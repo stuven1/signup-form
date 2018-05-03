@@ -78,8 +78,7 @@ class SignupForm extends React.Component {
             placeholder="password"
             minLength="8"
             maxLength="15"
-            title="Minimum characters 8 long.
-                  Your password need to contain at least one uppercase, one lowercase and a number. "
+            title="Minimum characters 8 long.Your password need to contain at least one uppercase, one lowercase and a number. "
             pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" // Uppercase, lowercase and number
             required />
           <button type="submit">Create user</button>
