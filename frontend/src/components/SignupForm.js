@@ -56,7 +56,7 @@ class SignupForm extends React.Component {
   render() {
     return (
       <div className="signUpForm">
-        <h1>Register an account<i className="fas fa-user-plus"></i></h1>
+        <h1>Register an account <i className="fas fa-user-plus"></i></h1>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
